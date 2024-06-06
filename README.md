@@ -1,4 +1,4 @@
-# Predicting-customer-emotion
+![image](https://github.com/ThuyBumr/Predicting-customer-emotion/assets/104961603/ff1923f1-d7b7-48f7-89f3-e716df673478)# Predicting-customer-emotion
 # Goal of the project
 - Find the best model for sentiment analysis of customer reviews on Shopee, then apply that model to classify reviews related to product quality (in-domain) or reviews about other aspects (out-domain)
 - Propose rating scores for customer reviews, thereby looking more objectively at product quality.
@@ -12,7 +12,12 @@ This classification helps improve the accuracy of assessments. Businesses will b
 - Create a slang and symbols dictionary
 - Normalize and clean text data
 - Word segmentation
-# 3. Implement and result model
+# 3. Explore Data Analyst
+- Calculate average number of words in comments, WordCloud frequently mentioned words.
+  ![image](https://github.com/ThuyBumr/Predicting-customer-emotion/assets/104961603/ae2e3f8f-1d26-45df-8927-b8c24a9ff58a)
+  ![image](https://github.com/ThuyBumr/Predicting-customer-emotion/assets/104961603/fa6c14e8-3b42-4df8-9ac7-06d73351dcf2)
+
+# 4. Implement and result model
 - On each dataset, we trained five models: Naive Bayes, Logistic Regression, Support Vector Machine (SVM), Convolutional Neural Network (CNN), and PhoBERT; then evaluated the models based on the indicators: Accuracy, F1 Score, and Recall. We also used the K-fold technique to increase model accuracy and minimize bias in evaluating model performance due to the effects of random data splitting.
 - Experiment results for classifying the review (No word segmentation 
   ![image](https://github.com/ThuyBumr/Predicting-customer-emotion/assets/104961603/c83feaf0-0834-4eea-9b2a-ae4f2a90f2c3)
@@ -23,5 +28,5 @@ This classification helps improve the accuracy of assessments. Businesses will b
 - Experiment results for predicting rating scores (Word segmentation)
 - ![image](https://github.com/ThuyBumr/Predicting-customer-emotion/assets/104961603/ed1c1d76-5c9f-4149-bbe4-ce70dd0623ce)
 
-# 4. Conclusion
+# 5. Conclusion
 - The pre-trained PhoBERT model which was fine-tuned by the word segmentation dataset, got the best result with the highest accuracy of 96.29% for the review classification and 75.62% for the rating score prediction.
