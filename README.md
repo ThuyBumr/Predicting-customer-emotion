@@ -1,4 +1,4 @@
-![image](https://github.com/ThuyBumr/Predicting-customer-emotion/assets/104961603/ff1923f1-d7b7-48f7-89f3-e716df673478)# Predicting-customer-emotion
+# Predicting-customer-emotion
 # Goal of the project
 - Find the best model for sentiment analysis of customer reviews on Shopee, then apply that model to classify reviews related to product quality (in-domain) or reviews about other aspects (out-domain)
 - Propose rating scores for customer reviews, thereby looking more objectively at product quality.
@@ -15,7 +15,9 @@ This classification helps improve the accuracy of assessments. Businesses will b
 # 3. Explore Data Analyst
 - Calculate average number of words in comments, WordCloud frequently mentioned words.
   ![image](https://github.com/ThuyBumr/Predicting-customer-emotion/assets/104961603/ae2e3f8f-1d26-45df-8927-b8c24a9ff58a)
+The length distribution of comments ranges from 0 to 400 characters for the most part, with an average length of about 115 characters and very few comments over 500 characters.
   ![image](https://github.com/ThuyBumr/Predicting-customer-emotion/assets/104961603/fa6c14e8-3b42-4df8-9ac7-06d73351dcf2)
+  Observe the chart above, the value 'delivery', 'everyone' has the most repetition so it has the largest size with green on the chart. Next are values ​​such as: 'recommended to buy', 'fast delivery', etc. The less frequently the values ​​are repeated, the dimmer the color is and the smaller the font size is: 'too thin', ' redundancy', 'color',...
 
 # 4. Implement and result model
 - On each dataset, we trained five models: Naive Bayes, Logistic Regression, Support Vector Machine (SVM), Convolutional Neural Network (CNN), and PhoBERT; then evaluated the models based on the indicators: Accuracy, F1 Score, and Recall. We also used the K-fold technique to increase model accuracy and minimize bias in evaluating model performance due to the effects of random data splitting.
