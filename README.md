@@ -17,6 +17,7 @@ This classification helps improve the accuracy of assessments. Businesses will b
   ![image](https://github.com/ThuyBumr/Predicting-customer-emotion/assets/104961603/ae2e3f8f-1d26-45df-8927-b8c24a9ff58a)
 The length distribution of comments ranges from 0 to 400 characters for the most part, with an average length of about 115 characters and very few comments over 500 characters.
   ![image](https://github.com/ThuyBumr/Predicting-customer-emotion/assets/104961603/fa6c14e8-3b42-4df8-9ac7-06d73351dcf2)
+  
   Observe the chart above, the value 'delivery', 'everyone' has the most repetition so it has the largest size with green on the chart. Next are values ​​such as: 'recommended to buy', 'fast delivery', etc. The less frequently the values ​​are repeated, the dimmer the color is and the smaller the font size is: 'too thin', ' redundancy', 'color',...
 
 # 4. Implement and result model
